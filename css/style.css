@@ -1,17 +1,7 @@
 :root{
-    --background-color: #000;
+    --background-color: #1E252B;
     --button-baground-color: #FF6E30; 
 }
-
-
-
-
-
-
-
-
-
-
-body{
+/* body{
     background-color: var(--background-color);
-}
+} */

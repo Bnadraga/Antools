@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antools</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <img src="../image/header_logo.jpg" alt="">
+        <div class="container">
+            <a class="header-logo" href=""><img src="image/header-logo.png" alt="./index.html"></a>
         <nav class="header-navigation">
             <ul class="header-list">
                 <li class="header-items">
@@ -21,9 +22,9 @@
                 </li>
                 <li class="header-items">
                     <select name="" id="">
-                        <option value="1">Designer & Developer</option>
+                        <option value="1">Categories</option>
                         <option value="2">Contact-us</option>
-                        <option value="3">company</option>
+                        <option value="3">Company Info</option>
                     </select>
                 </li>
                 <li class="header-items">
@@ -34,16 +35,19 @@
                 </li>
             </ul>
         </nav>
-
+        </div>
     </header>
     <main class="main">
         <section class="hero">
-            <h1 class="hero-title">Awesome tools for Designer & Developer.</h1>
-            <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
-            <form action=""></form>
+            <div class="container">
+                <h1 class="hero-title">Awesome tools for Designer & Developer.</h1>
+                <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+                <form action=""></form>
+            </div>
         </section>
         <section class="popular">
-            <h2 class="popular-title">Most Popular Tools</h2>
+            <div class="container">
+                <h2 class="popular-title">Most Popular Tools</h2>
             <p class="popular-text">Tools for the best Designers and Developers most popularly used in the world</p>
             <ul class="popular-list">
                 <li class="popular-items">
@@ -123,9 +127,11 @@
                 <img src="" alt="">
                 <img src="" alt="">
             </div>
+            </div>
         </section>
         <section class="newcomer">
-            <h2 class="newcomer-title">Newcomer Tools</h2>
+            <div class="container">
+                <h2 class="newcomer-title">Newcomer Tools</h2>
             <p class="newcomer-text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
             <button class="newcomer-button">Explore more</button>
             <ul class="newcomer-list">
@@ -174,17 +180,36 @@
                     </div>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="join">
-            <h2 class="join-title">Become a contributor?</h2>
-            <p class="join-text">Join us and get tips & tricks to become a great Designer and Developer</p>
+           <div class="container">
+                <h2 class="join-title">Become a contributor?</h2>
+                <p class="join-text">Join us and get tips & tricks to become a great Designer and Developer</p>
+                <form class="join-form" action="">
+                    <label class="join-label" for="">Enter your email...</label>
+                    <input class="join-input" type="text">
+                </form>
+           </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer-logo"></div>
-        <div class="footer-contact"></div>
-        <div class="footer-categories"></div>
-        <div class="footer-info"></div>
+        <div class="container">
+            <div class="footer-logo">
+                <h4 class="footer-logo-title">Copyright 2021. Antools</h4>
+                <p class="footer-logo-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+            </div>
+            <div class="footer-contact">
+                <h4 class="footer-contact-title">Contact Us</h4>
+                <p class="footer-contact-text"></p>
+            </div>
+            <div class="footer-categories">
+                <h4 class="footer-categories-title">Categories</h4>
+            </div>
+            <div class="footer-info">
+                <h4 class="footer-logo-title">Company Info</h4>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
