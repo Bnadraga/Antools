@@ -10,6 +10,7 @@
     --button-border-color: rgba(255, 255, 255, 0.10);
     --title-brand-color: rgba(255, 255, 255, 0.80);
     --button-text-color: #fff;
+    --header-button-text-color: #FDF5FF;
 }
 .container{
     width: 1440px;
@@ -20,16 +21,48 @@
 /* header */
 .header{
     background-color: var(--background-color);
+    padding-top: 34px;
 }
-.header-items{
+.site-link{
+    text-decoration: none;
     color: var(--header-text-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
+.site-link-login{
+    text-decoration: none;
+    color: var(--title-card-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+.site-link-login:hover,
+.site-link-login:focus{
+    background-color: var(--button-backround-color);
+    color: var(--header-button-text-color);
+}
+.header-list{
+    display: flex;
+}
+.header-list-login{
+    display: flex;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gategories{
+    border: none;
+    background-color: var(--background-color);
+}
 /* hero */
 .hero{
     background-color: var(--background-color);
+    background-image: url(../image/backgroun-section.png);
 }
 .hero-title{
     color: var(--title-text-color);
@@ -37,6 +70,7 @@
     font-size: 50px;
     font-weight: 500;
     line-height: 140%;
+    width: 600px;
 }
 .hero-title-span{
     color: var(--button-backround-color);
@@ -47,6 +81,20 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 166.667%;
+    width: 487px;
+    margin-top: 30px;
+}
+.hero-form{
+    margin-top: 30px;
+}
+.hero-input{
+    border: 1.5px solid var(--button-border-color);
+    background-color: var(--box-shadow-card);
+    border-radius: 15px;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    padding-left: 18px;
+    padding-right: 252.5px;
 }
 /* popular */
 .popular{
@@ -66,11 +114,15 @@
     font-weight: 500;
     line-height: 166.667%;
 }
+.popular-items{
+    width: 392px;
+}
 .popular-items-title{
     color: var(--title-card-color);
     font-family: 'Poppins';
     font-size: 24px;
     font-weight: 500;
+    padding-top: 33px;
 }
 .popular-items-span{
     color: var(--span-card-text-color);
@@ -100,6 +152,24 @@
 .popular-button:focus{
     background-color: var(--button-backround-color);
     color: var(--button-text-color);
+}
+.popular-items-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.popular-items-wrap-visit{
+    color: var(--header-text-color);
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 35px;
+    border-radius: 8px;
+}
+.popular-items-wrap-visit:hover,
+.popular-items-wrap-visit:focus{
+    color: var(--button-text-color);
+    background-color: var(--button-backround-color);
 }
 /* brand */
 .brand{
@@ -135,9 +205,10 @@
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 500;
-    padding: 14px 40px;
+    padding: 12px 38px;
     border-radius: 4px;
     cursor: pointer;
+    border: 2px solid var(--button-backround-color);
 }
 .newcomer-button:hover,
 .newcomer-button:focus{

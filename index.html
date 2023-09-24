@@ -14,27 +14,39 @@
 <body>
     <header class="header">
         <div class="container">
-            <a class="header-logo" href=""><img src="image/header-logo.png" alt="./index.html"></a>
-        <nav class="header-navigation">
-            <ul class="header-list">
-                <li class="header-items">
-                    <a class="site-link" href="#">Home</a>
-                </li>
-                <li class="header-items">
-                    <select name="" id="">
-                        <option value="1">Categories</option>
-                        <option value="2">Contact-us</option>
-                        <option value="3">Company Info</option>
-                    </select>
-                </li>
-                <li class="header-items">
-                    <a href="#">My Collections</a>
-                </li>
-                <li class="header-items">
-                    <a href="#">Blog</a>
-                </li>
-            </ul>
-        </nav>
+            <div class="header-wrapper">
+                <nav class="header-navigation">
+                    <ul class="header-list">
+                        <li>
+                            <a class="header-logo" href=""><img src="image/header-logo.png" alt="./index.html"></a>
+                        </li>
+                        <li class="header-items">
+                            <a class="site-link" href="#">Home</a>
+                        </li>
+                        <li class="site-link">
+                            <select class="gategories" name="" id="">
+                                <option value="1">Categories</option>
+                                <option value="2">Contact-us</option>
+                                <option value="3">Company Info</option>
+                            </select>
+                        </li>
+                        <li class="header-items">
+                            <a class="site-link" href="#">My Collections</a>
+                        </li>
+                        <li class="header-items">
+                            <a class="site-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header-list-login">
+                    <li class="header-items">
+                        <a class="site-link-login" href="">Login</a>
+                    </li>
+                    <li class="header-items">
+                        <a class="site-link-login" href="">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -42,9 +54,10 @@
             <div class="container">
                 <h1 class="hero-title">Awesome tools for Designer & Developer<span class="hero-title-span">.</span></h1>
                 <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
-                <form action="">
-                    <input class="join-input" type="text">
+                <form class="hero-form" action="">
+                    <input class="hero-input" type="text" placeholder="find more than 430+ tools...">
                 </form>
+                <button class="hero-form-button">Search</button>
                 <img src="image/icon-facebook.png" alt="">
                 <img src="image/icon-instagram.png" alt="">
                 <img src="image/icon-twitter.png" alt="">
@@ -61,9 +74,9 @@
                     <span class="popular-items-span">Free</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <a class="popular-items-wrap-visit" href=""></a>
+                        <img src="image/like-card.png" alt="like">
+                        <img src="image/folder-card.png" alt="folder">
+                        <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
                 <li class="popular-items">
@@ -72,9 +85,9 @@
                     <span class="popular-items-span">Trial & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <a class="popular-items-wrap-visit" href=""></a>
+                        <img src="image/like-card.png" alt="like">
+                        <img src="image/folder-card.png" alt="folder">
+                        <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
                 <li class="popular-items">
@@ -83,9 +96,9 @@
                     <span class="popular-items-span">Free</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <a class="popular-items-wrap-visit" href=""></a>
+                        <img src="image/like-card.png" alt="like">
+                        <img src="image/folder-card.png" alt="folder">
+                        <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
                 <li class="popular-items">
@@ -94,9 +107,9 @@
                     <span class="popular-items-span">Free & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <a class="popular-items-wrap-visit" href=""></a>
+                        <img src="image/like-card.png" alt="like">
+                        <img src="image/folder-card.png" alt="folder">
+                        <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
                 <li class="popular-items">
@@ -105,9 +118,9 @@
                     <span class="popular-items-span">Free & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <a class="popular-items-wrap-visit" href=""></a>
+                        <img src="image/like-card.png" alt="like">
+                        <img src="image/folder-card.png" alt="folder">
+                        <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
                 <li class="popular-items">
@@ -116,9 +129,9 @@
                     <span class="popular-items-span">Free & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <a class="popular-items-wrap-visit" href=""></a>
+                        <img src="image/like-card.png" alt="like">
+                        <img src="image/folder-card.png" alt="folder">
+                        <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
             </ul>
@@ -192,7 +205,7 @@
                 <h2 class="join-title">Become a contributor?</h2>
                 <p class="join-text">Join us and get tips & tricks to become a great Designer and Developer</p>
                 <form class="join-form" action="">
-                    <input class="join-input" type="text">
+                    <input class="join-input" type="email" placeholder="find more than 430+ tools...">
                 </form>
            </div>
         </section>
