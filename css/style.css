@@ -30,6 +30,9 @@
     font-size: 16px;
     font-weight: 500;
 }
+.header-items:not(:last-child){
+    margin-right: 40px;
+}
 .site-link-login{
     text-decoration: none;
     color: var(--title-card-color);
@@ -46,6 +49,7 @@
 }
 .header-list{
     display: flex;
+    
 }
 .header-list-login{
     display: flex;
@@ -63,6 +67,7 @@
 .hero{
     background-color: var(--background-color);
     background-image: url(../image/backgroun-section.png);
+    background-repeat: no-repeat;
 }
 .hero-title{
     color: var(--title-text-color);
@@ -175,6 +180,9 @@
 /* brand */
 .brand{
     background-color: var(--backround-color-section-brand);
+    background-image: radial-gradient(left, rgba(255, 72, 66, 0.40), rgba(255, 255, 255, 0));
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
 }
 .brand-title{
     color: var(--title-brand-color);
