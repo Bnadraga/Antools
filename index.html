@@ -15,19 +15,17 @@
     <header class="header">
         <div class="container">
             <div class="header-wrapper">
+                <a class="header-logo" href=""><img src="image/header-logo.png" alt="./index.html"></a>
                 <nav class="header-navigation">
                     <ul class="header-list">
-                        <li>
-                            <a class="header-logo" href=""><img src="image/header-logo.png" alt="./index.html"></a>
-                        </li>
                         <li class="header-items">
                             <a class="site-link" href="#">Home</a>
                         </li>
                         <li class="site-link">
                             <select class="gategories" name="" id="">
-                                <option value="1">Categories</option>
-                                <option value="2">Contact-us</option>
-                                <option value="3">Company Info</option>
+                                <option class="gatedories-option" value="1">Categories</option>
+                                <option class="gatedories-option" value="2">Contact-us</option>
+                                <option class="gatedories-option" value="3">Company Info</option>
                             </select>
                         </li>
                         <li class="header-items">
@@ -51,16 +49,18 @@
     </header>
     <main class="main">
         <section class="hero">
-            <div class="container">
+            <div class="container hero-container">
                 <h1 class="hero-title">Awesome tools for Designer & Developer<span class="hero-title-span">.</span></h1>
                 <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
                 <form class="hero-form" action="">
                     <input class="hero-input" type="text" placeholder="find more than 430+ tools...">
+                    <button class="hero-form-button">Search</button>                
                 </form>
-                <button class="hero-form-button">Search</button>
-                <img src="image/icon-facebook.png" alt="">
-                <img src="image/icon-instagram.png" alt="">
-                <img src="image/icon-twitter.png" alt="">
+                <div>
+                    <img src="image/icon-facebook.png" alt="">
+                    <img src="image/icon-instagram.png" alt="">
+                    <img src="image/icon-twitter.png" alt="">
+                </div>
             </div>
         </section>
         <section class="popular">
@@ -74,8 +74,8 @@
                     <span class="popular-items-span">Free</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="image/like-card.png" alt="like">
-                        <img src="image/folder-card.png" alt="folder">
+                        <img src="image/like-card.png" alt="like" width="28" height="28">
+                        <img src="image/folder-card.png" alt="folder" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
@@ -85,8 +85,8 @@
                     <span class="popular-items-span">Trial & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="image/like-card.png" alt="like">
-                        <img src="image/folder-card.png" alt="folder">
+                        <img src="image/like-card.png" alt="like" width="28" height="28">
+                        <img src="image/folder-card.png" alt="folder" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
@@ -96,8 +96,8 @@
                     <span class="popular-items-span">Free</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="image/like-card.png" alt="like">
-                        <img src="image/folder-card.png" alt="folder">
+                        <img src="image/like-card.png" alt="like" width="28" height="28">
+                        <img src="image/folder-card.png" alt="folder" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
@@ -107,8 +107,8 @@
                     <span class="popular-items-span">Free & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="image/like-card.png" alt="like">
-                        <img src="image/folder-card.png" alt="folder">
+                        <img src="image/like-card.png" alt="like" width="28" height="28">
+                        <img src="image/folder-card.png" alt="folder" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
@@ -118,8 +118,8 @@
                     <span class="popular-items-span">Free & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="image/like-card.png" alt="like">
-                        <img src="image/folder-card.png" alt="folder">
+                        <img src="image/like-card.png" alt="like" width="28" height="28">
+                        <img src="image/folder-card.png" alt="folder" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
@@ -129,8 +129,8 @@
                     <span class="popular-items-span">Free & Paid</span>
                     <p class="popular-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="popular-items-wrap">
-                        <img src="image/like-card.png" alt="like">
-                        <img src="image/folder-card.png" alt="folder">
+                        <img src="image/like-card.png" alt="like" width="28" height="28">
+                        <img src="image/folder-card.png" alt="folder" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="#">Visit</a>
                     </div>
                 </li>
@@ -145,7 +145,6 @@
                 <img src="image/logos-slack.png" alt="slack">
                 <img src="image/logos-wordpress.png" alt="wordpress">
             </div>
-            </div>
         </section>
         <section class="newcomer">
             <div class="container">
@@ -159,8 +158,8 @@
                     <span class="newcomer-items-span">Free & Paid</span>
                     <p class="newcomer-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="newcomer-items-wrap">
-                        <img src="image/folder-card.png" alt="">
-                        <img src="image/like-card.png" alt="">
+                        <img src="image/folder-card.png" alt="" width="28" height="28">
+                        <img src="image/like-card.png" alt="" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="">Visit</a>
                     </div>
                 </li>
@@ -170,8 +169,8 @@
                     <span class="newcomer-items-span">Free</span>
                     <p class="newcomer-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="newcomer-items-wrap">
-                        <img src="image/folder-card.png" alt="">
-                        <img src="image/like-card.png" alt="">
+                        <img src="image/folder-card.png" alt="" width="28" height="28">
+                        <img src="image/like-card.png" alt="" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="">Visit</a>
                     </div>
                 </li>
@@ -181,8 +180,8 @@
                     <span class="newcomer-items-span">Free</span>
                     <p class="newcomer-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="newcomer-items-wrap">
-                        <img src="image/folder-card.png" alt="">
-                        <img src="image/like-card.png" alt="">
+                        <img src="image/folder-card.png" alt="" width="28" height="28">
+                        <img src="image/like-card.png" alt="" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="">Visit</a>
                     </div>
                 </li>
@@ -192,8 +191,8 @@
                     <span class="newcomer-items-span">Paid</span>
                     <p class="newcomer-items-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="newcomer-items-wrap">
-                        <img src="image/folder-card.png" alt="">
-                        <img src="image/like-card.png" alt="">
+                        <img src="image/folder-card.png" alt="" width="28" height="28">
+                        <img src="image/like-card.png" alt="" width="28" height="28">
                         <a class="popular-items-wrap-visit" href="">Visit</a>
                     </div>
                 </li>
@@ -213,18 +212,26 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-logo">
+                <a href=""><img src="image/footer-logo.png" alt="../index.html"></a>
                 <h4 class="footer-logo-title">Copyright 2021. Antools</h4>
                 <p class="footer-logo-text">Antool is a web collection of information on paid or free Design and Development tools</p>
             </div>
             <div class="footer-contact">
-                <h4 class="footer-contact-title">Contact Us</h4>
-                <p class="footer-contact-text"></p>
+                <h4 class="footer-other-title">Contact Us</h4>
+                <a>+621987463</a>
+                <a>M Building, No.10 A</a>
+                <a>antools@awesome.com</a>
             </div>
             <div class="footer-categories">
-                <h4 class="footer-categories-title">Categories</h4>
+                <h4 class="footer-other-title">Categories</h4>
+                <a>Design</a>
+                <a>Development</a>
             </div>
             <div class="footer-info">
-                <h4 class="footer-logo-title">Company Info</h4>
+                <h4 class="footer-other-title">Company Info</h4>
+                <a>About Us</a>
+                <a>Our Partners</a>
+                <a>Blog</a>
             </div>
         </div>
     </footer>
