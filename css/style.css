@@ -14,9 +14,9 @@
     --form-input-text-color: rgba(255, 255, 255, 0.38);
 }
 .container{
-    width: 1440px;
-    padding-left: 108px;
-    padding-right: 108px;
+    width: 1225px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 0 auto;
 }
 /* header */
@@ -72,10 +72,11 @@
 .hero{
     background-color: var(--background-color);
     background-image: url(../image/backgroun-section.png);
-    background-size: cover;
+    /* background-size: cover; */       
     background-repeat: no-repeat;
     padding-top: 58px;
     padding-bottom: 100px;
+    background-position: right bottom;
 }
 .hero-title{
     color: var(--title-text-color);
