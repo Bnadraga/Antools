@@ -351,6 +351,41 @@ body{
 .newcomer-items-wrap{
     display: flex;
 }
+/* slider */
+.slider{
+    background-color: var(--background-color);
+}
+.slider-item-text{
+    width: 393px;
+    color: var(--title-card-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 214.286%;
+    letter-spacing: 0.21px;
+}
+.slider-item{
+    display: flex;
+}
+.slider-wrapper-line{
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.slider-icon-orange{
+    width: 44px;
+    height: 8px;
+    background-color: var(--button-backround-color);
+    border-radius: 50px;
+}
+.slider-icon-black{
+    width: 44px;
+    height: 8px;
+    background-color: var(--box-shadow-card);
+    border-radius: 50px;
+}
 /* join */
 .join{
     background-color: var(--background-color);
