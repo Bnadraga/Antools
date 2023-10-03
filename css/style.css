@@ -33,6 +33,9 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
+.site-link:hover{
+    color: var(--button-backround-color);
+}
 .header-items:not(:last-child){
     margin-right: 40px;
 }
@@ -68,6 +71,12 @@ body{
     font-size: 16px;
     font-weight: 500;
     margin-right: 40px;
+}
+.gategories-option{
+    color: var(--button-backround-color)
+}
+.gategories:hover{
+    color: var(--button-backround-color);
 }
 /* hero */
 .hero{
@@ -167,9 +176,13 @@ body{
     margin-top: 25px;
 }
 .popular-items{
-    width: 364px;
+    width: 392px;
     padding: 33px 33px;
     margin-right: 24px;
+}
+.popular-items:hover{
+    background-image: radial-gradient(circle farthest-side at 100% 0%, rgba(255, 72, 66, 0.20), rgba(44, 53, 61, 0.00) 150px);
+    background-color: rgba(40, 48, 54, 0.60);
 }
 .popular-items:hover{
     border-radius: 15px;
@@ -207,7 +220,7 @@ body{
     margin-right: 25px;
 }
 .popular-items-folder{
-    margin-right: 50px;
+    margin-right: 140px;
 }
 .popular-wrapper-button{
     display: flex;
@@ -304,6 +317,12 @@ body{
 }
 .newcomer-items{
     width: 288px;
+    padding: 22px 28px;
+    border-radius: 15px;
+}
+.newcomer-items:hover{
+    background-image: radial-gradient(circle farthest-side at 100% 0%, rgba(255, 72, 66, 0.20), rgba(44, 53, 61, 0.00) 150px);
+    background-color: rgba(40, 48, 54, 0.60);
 }
 .newcomer-items-title-wrapper{
     margin-left: 100px;
@@ -354,6 +373,7 @@ body{
 /* slider */
 .slider{
     background-color: var(--background-color);
+    padding-top: 210px;
 }
 .slider-item-text{
     width: 393px;
@@ -363,9 +383,16 @@ body{
     font-weight: 400;
     line-height: 214.286%;
     letter-spacing: 0.21px;
+    margin-left: 61px;
+}
+.slider-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .slider-item{
     display: flex;
+    align-items: center;
 }
 .slider-wrapper-line{
     display: flex;
@@ -476,10 +503,12 @@ body{
 .footer-other-link{
     margin-bottom: 10px;
 }
+.footer-other-link:hover{
+    color: var(--button-backround-color);
+}
 .footer-logo{
     margin-right: 156px;
 }
-
 .footer-info{
     color: var(--header-text-color);
     font-size: 16px;
