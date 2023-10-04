@@ -163,7 +163,8 @@ body{
 .popular-list{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 90px;
+    width: 1260px;
+    margin: 0 auto;
 }
 .popular-text{
     color: var(--header-text-color);
@@ -173,12 +174,14 @@ body{
     width: 427px;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 110px;
     margin-top: 25px;
 }
 .popular-items{
-    width: 392px;
+    width: 395px;
     padding: 33px 33px;
     margin-right: 24px;
+    margin-bottom: 120px;
 }
 .popular-items:hover{
     background-image: radial-gradient(circle farthest-side at 100% 0%, rgba(255, 72, 66, 0.20), rgba(44, 53, 61, 0.00) 150px);
@@ -224,7 +227,6 @@ body{
 }
 .popular-wrapper-button{
     display: flex;
-    margin-top: 100px;
 }
 .popular-button{
     background-color: var(--background-color);
@@ -317,7 +319,7 @@ body{
 }
 .newcomer-items{
     width: 288px;
-    padding: 22px 28px;
+    padding: 30px 30px;
     border-radius: 15px;
 }
 .newcomer-items:hover{
@@ -326,7 +328,7 @@ body{
 }
 .newcomer-items-title-wrapper{
     margin-left: 100px;
-    margin-top: -60px;
+    margin-top: -45px;
 }
 .newcomer-button:hover{
     background-color: var(--background-color);
@@ -356,6 +358,12 @@ body{
     font-weight: 600;
     padding: 9px 35px;
     border-radius: 8px;
+}
+.newcomer-wrapper{
+    display: flex;
+}
+.nemcomer-text-wrapper{
+    margin-right: 197px;
 }
 .newcomer-items-wrap-visit:hover{
     color: var(--button-text-color);
