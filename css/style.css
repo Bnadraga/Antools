@@ -388,6 +388,12 @@ body{
     letter-spacing: 0.21px;
     margin-left: 61px;
 }
+.chevron-left{
+    margin-right: 123px;
+}
+.chevron-right{
+    margin-left: 125px;
+}
 .slider-list{
     display: flex;
     align-items: center;
