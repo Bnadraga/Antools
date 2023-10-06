@@ -160,6 +160,7 @@ body{
 .popular-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .popular-text{
     color: var(--header-text-color);
@@ -172,11 +173,14 @@ body{
     margin-bottom: 110px;
     margin-top: 25px;
 }
+.pop-wrap{
+    display: flex;
+    margin-bottom: 30px;
+}
 .popular-items{
     width: 392px;
     padding: 33px;
-    margin-right: 6px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .popular-items:hover{
     background-image: radial-gradient(circle farthest-side at 100% 0%, rgba(255, 72, 66, 0.20), rgba(44, 53, 61, 0.00) 150px);
@@ -193,7 +197,6 @@ body{
     color: var(--title-card-color);
     font-size: 24px;
     font-weight: 500;
-    padding-top: 33px;
     margin-bottom: 3px;
 }
 .popular-items-span{
@@ -204,12 +207,10 @@ body{
     color: var(--header-text-color);
     font-size: 16px;
     line-height: 187.5%;
-    margin-top: 30px;
     margin-bottom: 38px;
 }
 .popular-items-title-wrapper{
-    margin-left: 100px;
-    margin-top: -90px;
+    margin-left: 30px;
 }
 .popular-items-wrap{
     display: flex;
@@ -312,16 +313,16 @@ body{
 }
 .newcomer-items{
     width: 288px;
-    padding: 30px;
+    padding: 28px;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 .newcomer-items:hover{
     background-image: radial-gradient(circle farthest-side at 100% 0%, rgba(255, 72, 66, 0.20), rgba(44, 53, 61, 0.00) 150px);
     background-color: rgba(40, 48, 54, 0.60);
 }
 .newcomer-items-title-wrapper{
-    margin-left: 100px;
-    margin-top: -45px;
+    margin-left: 30px;
 }
 .newcomer-button:hover{
     background-color: var(--background-color);
@@ -340,8 +341,8 @@ body{
 }
 .newcomer-items-text{
     color: var(--header-text-color);
-    font-size: 16px;
-    line-height: 187.5%;
+    font-size: 14px;
+    line-height: 214%;
     margin-top: 30px;
 }
 .newcomer-items-wrap-visit{
